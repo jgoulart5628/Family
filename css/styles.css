@@ -1,0 +1,107 @@
+body {   font-family: Lora; }
+
+a:hover {
+    color: #d1831f;
+    text-decoration: none;
+}
+
+.mostrar  { display: visible;} 
+.esconder { display: none; }
+
+.centro { text-align: center; }
+.tit { font-size: 0.98em;  text-transform: none; }
+.bg {
+  background-image: url("../img/fam6.jpg"); 
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: lightblue;
+  padding-top: 2px;	
+}
+
+ cite { 
+    font: 150% Georgia, "Times New Roman", Times, serif; color: #ffffff; 
+    display: block; margin-top: 2em;
+    font-style: normal; font-size: 1em;
+    line-height: 1em; text-align: center;
+    font-weight: bold;
+ }
+#sobre {
+  float: left;
+  width: 270px;
+  height: 360px;
+  padding: 10px 17px 0 27px;
+  box-shadow: 8px 8px 6px #888888; z-index:1;
+/*  background: url("../images/img11.png") no-repeat left bottom; */
+}
+
+#sobre h2 {
+  margin-bottom: 5px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+#sobre p { font-size: 12px;  }
+#right { float: left; width: 500px; /* height: 820px; */ text-align: center; vertical-align: top;}
+#left  { float: left; width: 500px; /* height: 820px; */ text-align: center; vertical-align: top;}
+
+.img  { height: 32px; width: 32px; }
+
+#aniver { margin:0px; padding:0px; border:none;font-family:Verdana, Arial, sans serif;font-size:0.8em; background-color:#D3D7CF;}
+#aniver th, td { padding:3px 6px 3px 4px; white-space:nowrap; }
+#aniver a { text-decoration: none; color: #212529;}
+
+ .pad { padding: 3px; }
+
+ #menuRoot{
+  float:left;
+  width:25%;
+  margin-right:1em;
+ }
+ 
+ #content{
+  float:left;
+  width:50%;
+ }
+ 
+ #debug{
+  clear:left;
+ }
+
+ #about{
+  width:100%;
+  margin-top:3em;
+  float:left;
+ }
+
+ .modal-login {
+    width: 320px;
+ }
+
+ .modal-login .modal-content {
+    border-radius: 16px;
+    color: #505e6c;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+  }
+
+  .modal-login .modal-header {
+        position: relative;
+        justify-content: center;
+  }
+ .modal-login .modal-body {
+    padding: 30px;
+    background-color: #888A85FF;
+ }
+
+.modal-login h4 {
+    text-align: center;
+    font-size: 26px;
+ }
+
+.modal-login label {
+   font-weight: normal;
+   font-size: 13px;
+ }
+

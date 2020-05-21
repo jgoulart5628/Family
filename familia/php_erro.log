@@ -1,0 +1,225 @@
+[29-Mar-2019 13:44:50 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jgoulart_fam.chat' doesn't exist in /home/jgoulart/public_html/familia/inc/banco_pdo_class.php:46
+Stack trace:
+#0 /home/jgoulart/public_html/familia/inc/banco_pdo_class.php(46): PDOStatement->execute()
+#1 /home/jgoulart/public_html/familia/Chat_classe.php(44): banco_mysql->mydb_query(' SELECT max(dat...', 'unico', Object(xajaxResponse))
+#2 /home/jgoulart/public_html/familia/Chat.php(11): Chat_model->SQL(' SELECT max(dat...', 'unico', Object(xajaxResponse))
+#3 /home/jgoulart/public_html/familia/xajax/xajax_core/plugin_layer/support/xajaxUserFunction.inc.php(237): Chat(Array)
+#4 /home/jgoulart/public_html/familia/xajax/xajax_core/plugin_layer/xajaxFunctionPlugin.inc.php(228): xajaxUserFunction->call(Array)
+#5 /home/jgoulart/public_html/familia/xajax/xajax_core/xajaxPluginManager.inc.php(241): xajaxFunctionPlugin->processRequest()
+#6 /home/jgoulart/public_html/familia/xajax/xajax_core/xajax.inc.php(605): xajaxPluginManager->process in /home/jgoulart/public_html/familia/inc/banco_pdo_class.php on line 46
+[29-Mar-2019 13:44:50 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jgoulart_fam.chat' doesn't exist in /home/jgoulart/public_html/familia/inc/banco_pdo_class.php:46
+Stack trace:
+#0 /home/jgoulart/public_html/familia/inc/banco_pdo_class.php(46): PDOStatement->execute()
+#1 /home/jgoulart/public_html/familia/Chat_classe.php(44): banco_mysql->mydb_query(' SELECT max(dat...', 'unico', Object(xajaxResponse))
+#2 /home/jgoulart/public_html/familia/Chat.php(11): Chat_model->SQL(' SELECT max(dat...', 'unico', Object(xajaxResponse))
+#3 /home/jgoulart/public_html/familia/xajax/xajax_core/plugin_layer/support/xajaxUserFunction.inc.php(237): Chat(Array)
+#4 /home/jgoulart/public_html/familia/xajax/xajax_core/plugin_layer/xajaxFunctionPlugin.inc.php(228): xajaxUserFunction->call(Array)
+#5 /home/jgoulart/public_html/familia/xajax/xajax_core/xajaxPluginManager.inc.php(241): xajaxFunctionPlugin->processRequest()
+#6 /home/jgoulart/public_html/familia/xajax/xajax_core/xajax.inc.php(605): xajaxPluginManager->process in /home/jgoulart/public_html/familia/inc/banco_pdo_class.php on line 46
+[29-Mar-2019 13:44:53 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jgoulart_fam.chat' doesn't exist in /home/jgoulart/public_html/familia/inc/banco_pdo_class.php:46
+Stack trace:
+#0 /home/jgoulart/public_html/familia/inc/banco_pdo_class.php(46): PDOStatement->execute()
+#1 /home/jgoulart/public_html/familia/Chat_classe.php(44): banco_mysql->mydb_query(' SELECT max(dat...', 'unico', Object(xajaxResponse))
+#2 /home/jgoulart/public_html/familia/Chat.php(11): Chat_model->SQL(' SELECT max(dat...', 'unico', Object(xajaxResponse))
+#3 /home/jgoulart/public_html/familia/xajax/xajax_core/plugin_layer/support/xajaxUserFunction.inc.php(237): Chat(Array)
+#4 /home/jgoulart/public_html/familia/xajax/xajax_core/plugin_layer/xajaxFunctionPlugin.inc.php(228): xajaxUserFunction->call(Array)
+#5 /home/jgoulart/public_html/familia/xajax/xajax_core/xajaxPluginManager.inc.php(241): xajaxFunctionPlugin->processRequest()
+#6 /home/jgoulart/public_html/familia/xajax/xajax_core/xajax.inc.php(605): xajaxPluginManager->process in /home/jgoulart/public_html/familia/inc/banco_pdo_class.php on line 46
+[12-Jul-2019 11:26:46 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function setAttribute() on null in /home/jgoulart/public_html/familia/inc/banco_pdo_class.php:42
+Stack trace:
+#0 /home/jgoulart/public_html/familia/Pessoas_classe.php(183): banco_mysql->mydb_query(' delete from se...', 'sql')
+#1 /home/jgoulart/public_html/familia/index.php(154): Pessoa_model->Sessao(' delete from se...', Object(xajaxResponse))
+#2 /home/jgoulart/public_html/familia/xajax/xajax_core/plugin_layer/support/xajaxUserFunction.inc.php(237): Tela('')
+#3 /home/jgoulart/public_html/familia/xajax/xajax_core/plugin_layer/xajaxFunctionPlugin.inc.php(228): xajaxUserFunction->call(Array)
+#4 /home/jgoulart/public_html/familia/xajax/xajax_core/xajaxPluginManager.inc.php(241): xajaxFunctionPlugin->processRequest()
+#5 /home/jgoulart/public_html/familia/xajax/xajax_core/xajax.inc.php(605): xajaxPluginManager->processRequest()
+#6 /home/jgoulart/public_html/familia/index.php(70): xajax->processRequest()
+#7 {main}
+  thrown in /home/jgoulart/public_html/familia/inc/banco_pdo_class.php on line 42
+[27-Jul-2019 16:40:06 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function setAttribute() on null in /home/jgoulart/public_html/familia/inc/banco_pdo_class.php:42
+Stack trace:
+#0 /home/jgoulart/public_html/familia/Pessoas_classe.php(183): banco_mysql->mydb_query(' delete from se...', 'sql')
+#1 /home/jgoulart/public_html/familia/index.php(154): Pessoa_model->Sessao(' delete from se...', Object(xajaxResponse))
+#2 /home/jgoulart/public_html/familia/xajax/xajax_core/plugin_layer/support/xajaxUserFunction.inc.php(237): Tela('')
+#3 /home/jgoulart/public_html/familia/xajax/xajax_core/plugin_layer/xajaxFunctionPlugin.inc.php(228): xajaxUserFunction->call(Array)
+#4 /home/jgoulart/public_html/familia/xajax/xajax_core/xajaxPluginManager.inc.php(241): xajaxFunctionPlugin->processRequest()
+#5 /home/jgoulart/public_html/familia/xajax/xajax_core/xajax.inc.php(605): xajaxPluginManager->processRequest()
+#6 /home/jgoulart/public_html/familia/index.php(70): xajax->processRequest()
+#7 {main}
+  thrown in /home/jgoulart/public_html/familia/inc/banco_pdo_class.php on line 42
+[27-Jul-2019 16:41:13 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function setAttribute() on null in /home/jgoulart/public_html/familia/inc/banco_pdo_class.php:42
+Stack trace:
+#0 /home/jgoulart/public_html/familia/Pessoas_classe.php(183): banco_mysql->mydb_query(' delete from se...', 'sql')
+#1 /home/jgoulart/public_html/familia/index.php(154): Pessoa_model->Sessao(' delete from se...', Object(xajaxResponse))
+#2 /home/jgoulart/public_html/familia/xajax/xajax_core/plugin_layer/support/xajaxUserFunction.inc.php(237): Tela('')
+#3 /home/jgoulart/public_html/familia/xajax/xajax_core/plugin_layer/xajaxFunctionPlugin.inc.php(228): xajaxUserFunction->call(Array)
+#4 /home/jgoulart/public_html/familia/xajax/xajax_core/xajaxPluginManager.inc.php(241): xajaxFunctionPlugin->processRequest()
+#5 /home/jgoulart/public_html/familia/xajax/xajax_core/xajax.inc.php(605): xajaxPluginManager->processRequest()
+#6 /home/jgoulart/public_html/familia/index.php(70): xajax->processRequest()
+#7 {main}
+  thrown in /home/jgoulart/public_html/familia/inc/banco_pdo_class.php on line 42
+[27-Jul-2019 16:43:33 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function setAttribute() on null in /home/jgoulart/public_html/familia/inc/banco_pdo_class.php:42
+Stack trace:
+#0 /home/jgoulart/public_html/familia/Pessoas_classe.php(183): banco_mysql->mydb_query(' delete from se...', 'sql')
+#1 /home/jgoulart/public_html/familia/index.php(154): Pessoa_model->Sessao(' delete from se...', Object(xajaxResponse))
+#2 /home/jgoulart/public_html/familia/xajax/xajax_core/plugin_layer/support/xajaxUserFunction.inc.php(237): Tela('')
+#3 /home/jgoulart/public_html/familia/xajax/xajax_core/plugin_layer/xajaxFunctionPlugin.inc.php(228): xajaxUserFunction->call(Array)
+#4 /home/jgoulart/public_html/familia/xajax/xajax_core/xajaxPluginManager.inc.php(241): xajaxFunctionPlugin->processRequest()
+#5 /home/jgoulart/public_html/familia/xajax/xajax_core/xajax.inc.php(605): xajaxPluginManager->processRequest()
+#6 /home/jgoulart/public_html/familia/index.php(70): xajax->processRequest()
+#7 {main}
+  thrown in /home/jgoulart/public_html/familia/inc/banco_pdo_class.php on line 42
+[28-Aug-2019 19:45:22 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function setAttribute() on null in /home/jgoulart/public_html/familia/inc/banco_pdo_class.php:42
+Stack trace:
+#0 /home/jgoulart/public_html/familia/Pessoas_classe.php(183): banco_mysql->mydb_query(' delete from se...', 'sql')
+#1 /home/jgoulart/public_html/familia/index.php(154): Pessoa_model->Sessao(' delete from se...', Object(xajaxResponse))
+#2 /home/jgoulart/public_html/familia/xajax/xajax_core/plugin_layer/support/xajaxUserFunction.inc.php(237): Tela('')
+#3 /home/jgoulart/public_html/familia/xajax/xajax_core/plugin_layer/xajaxFunctionPlugin.inc.php(228): xajaxUserFunction->call(Array)
+#4 /home/jgoulart/public_html/familia/xajax/xajax_core/xajaxPluginManager.inc.php(241): xajaxFunctionPlugin->processRequest()
+#5 /home/jgoulart/public_html/familia/xajax/xajax_core/xajax.inc.php(605): xajaxPluginManager->processRequest()
+#6 /home/jgoulart/public_html/familia/index.php(70): xajax->processRequest()
+#7 {main}
+  thrown in /home/jgoulart/public_html/familia/inc/banco_pdo_class.php on line 42
+[04-Oct-2019 21:34:56 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function setAttribute() on null in /home/jgoulart/public_html/familia/inc/banco_pdo_class.php:42
+Stack trace:
+#0 /home/jgoulart/public_html/familia/Pessoas_classe.php(183): banco_mysql->mydb_query(' delete from se...', 'sql')
+#1 /home/jgoulart/public_html/familia/index.php(154): Pessoa_model->Sessao(' delete from se...', Object(xajaxResponse))
+#2 /home/jgoulart/public_html/familia/xajax/xajax_core/plugin_layer/support/xajaxUserFunction.inc.php(237): Tela('')
+#3 /home/jgoulart/public_html/familia/xajax/xajax_core/plugin_layer/xajaxFunctionPlugin.inc.php(228): xajaxUserFunction->call(Array)
+#4 /home/jgoulart/public_html/familia/xajax/xajax_core/xajaxPluginManager.inc.php(241): xajaxFunctionPlugin->processRequest()
+#5 /home/jgoulart/public_html/familia/xajax/xajax_core/xajax.inc.php(605): xajaxPluginManager->processRequest()
+#6 /home/jgoulart/public_html/familia/index.php(70): xajax->processRequest()
+#7 {main}
+  thrown in /home/jgoulart/public_html/familia/inc/banco_pdo_class.php on line 42
+[04-Oct-2019 21:35:10 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function setAttribute() on null in /home/jgoulart/public_html/familia/inc/banco_pdo_class.php:42
+Stack trace:
+#0 /home/jgoulart/public_html/familia/Pessoas_classe.php(183): banco_mysql->mydb_query(' delete from se...', 'sql')
+#1 /home/jgoulart/public_html/familia/index.php(154): Pessoa_model->Sessao(' delete from se...', Object(xajaxResponse))
+#2 /home/jgoulart/public_html/familia/xajax/xajax_core/plugin_layer/support/xajaxUserFunction.inc.php(237): Tela('')
+#3 /home/jgoulart/public_html/familia/xajax/xajax_core/plugin_layer/xajaxFunctionPlugin.inc.php(228): xajaxUserFunction->call(Array)
+#4 /home/jgoulart/public_html/familia/xajax/xajax_core/xajaxPluginManager.inc.php(241): xajaxFunctionPlugin->processRequest()
+#5 /home/jgoulart/public_html/familia/xajax/xajax_core/xajax.inc.php(605): xajaxPluginManager->processRequest()
+#6 /home/jgoulart/public_html/familia/index.php(70): xajax->processRequest()
+#7 {main}
+  thrown in /home/jgoulart/public_html/familia/inc/banco_pdo_class.php on line 42
+[14-Dec-2019 14:00:53 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function setAttribute() on null in /home/jgoulart/public_html/familia/inc/banco_pdo_class.php:42
+Stack trace:
+#0 /home/jgoulart/public_html/familia/Pessoas_classe.php(183): banco_mysql->mydb_query(' delete from se...', 'sql')
+#1 /home/jgoulart/public_html/familia/index.php(154): Pessoa_model->Sessao(' delete from se...', Object(xajaxResponse))
+#2 /home/jgoulart/public_html/familia/xajax/xajax_core/plugin_layer/support/xajaxUserFunction.inc.php(237): Tela('')
+#3 /home/jgoulart/public_html/familia/xajax/xajax_core/plugin_layer/xajaxFunctionPlugin.inc.php(228): xajaxUserFunction->call(Array)
+#4 /home/jgoulart/public_html/familia/xajax/xajax_core/xajaxPluginManager.inc.php(241): xajaxFunctionPlugin->processRequest()
+#5 /home/jgoulart/public_html/familia/xajax/xajax_core/xajax.inc.php(605): xajaxPluginManager->processRequest()
+#6 /home/jgoulart/public_html/familia/index.php(70): xajax->processRequest()
+#7 {main}
+  thrown in /home/jgoulart/public_html/familia/inc/banco_pdo_class.php on line 42
+[16-Feb-2020 18:07:14 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function setAttribute() on null in /home/jgoulart/public_html/familia/inc/banco_pdo_class.php:42
+Stack trace:
+#0 /home/jgoulart/public_html/familia/Pessoas_classe.php(183): banco_mysql->mydb_query(' delete from se...', 'sql')
+#1 /home/jgoulart/public_html/familia/index.php(154): Pessoa_model->Sessao(' delete from se...', Object(xajaxResponse))
+#2 /home/jgoulart/public_html/familia/xajax/xajax_core/plugin_layer/support/xajaxUserFunction.inc.php(237): Tela('')
+#3 /home/jgoulart/public_html/familia/xajax/xajax_core/plugin_layer/xajaxFunctionPlugin.inc.php(228): xajaxUserFunction->call(Array)
+#4 /home/jgoulart/public_html/familia/xajax/xajax_core/xajaxPluginManager.inc.php(241): xajaxFunctionPlugin->processRequest()
+#5 /home/jgoulart/public_html/familia/xajax/xajax_core/xajax.inc.php(605): xajaxPluginManager->processRequest()
+#6 /home/jgoulart/public_html/familia/index.php(70): xajax->processRequest()
+#7 {main}
+  thrown in /home/jgoulart/public_html/familia/inc/banco_pdo_class.php on line 42
+[16-Feb-2020 18:46:46 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function setAttribute() on null in /home/jgoulart/public_html/familia/inc/banco_pdo_class.php:42
+Stack trace:
+#0 /home/jgoulart/public_html/familia/Pessoas_classe.php(183): banco_mysql->mydb_query(' delete from se...', 'sql')
+#1 /home/jgoulart/public_html/familia/index.php(154): Pessoa_model->Sessao(' delete from se...', Object(xajaxResponse))
+#2 /home/jgoulart/public_html/familia/xajax/xajax_core/plugin_layer/support/xajaxUserFunction.inc.php(237): Tela('')
+#3 /home/jgoulart/public_html/familia/xajax/xajax_core/plugin_layer/xajaxFunctionPlugin.inc.php(228): xajaxUserFunction->call(Array)
+#4 /home/jgoulart/public_html/familia/xajax/xajax_core/xajaxPluginManager.inc.php(241): xajaxFunctionPlugin->processRequest()
+#5 /home/jgoulart/public_html/familia/xajax/xajax_core/xajax.inc.php(605): xajaxPluginManager->processRequest()
+#6 /home/jgoulart/public_html/familia/index.php(70): xajax->processRequest()
+#7 {main}
+  thrown in /home/jgoulart/public_html/familia/inc/banco_pdo_class.php on line 42
+[22-Feb-2020 21:38:12 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function setAttribute() on null in /home/jgoulart/public_html/familia/inc/banco_pdo_class.php:42
+Stack trace:
+#0 /home/jgoulart/public_html/familia/Pessoas_classe.php(183): banco_mysql->mydb_query(' delete from se...', 'sql')
+#1 /home/jgoulart/public_html/familia/index.php(154): Pessoa_model->Sessao(' delete from se...', Object(xajaxResponse))
+#2 /home/jgoulart/public_html/familia/xajax/xajax_core/plugin_layer/support/xajaxUserFunction.inc.php(237): Tela('')
+#3 /home/jgoulart/public_html/familia/xajax/xajax_core/plugin_layer/xajaxFunctionPlugin.inc.php(228): xajaxUserFunction->call(Array)
+#4 /home/jgoulart/public_html/familia/xajax/xajax_core/xajaxPluginManager.inc.php(241): xajaxFunctionPlugin->processRequest()
+#5 /home/jgoulart/public_html/familia/xajax/xajax_core/xajax.inc.php(605): xajaxPluginManager->processRequest()
+#6 /home/jgoulart/public_html/familia/index.php(70): xajax->processRequest()
+#7 {main}
+  thrown in /home/jgoulart/public_html/familia/inc/banco_pdo_class.php on line 42
+[22-Feb-2020 21:38:46 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function setAttribute() on null in /home/jgoulart/public_html/familia/inc/banco_pdo_class.php:42
+Stack trace:
+#0 /home/jgoulart/public_html/familia/Pessoas_classe.php(183): banco_mysql->mydb_query(' delete from se...', 'sql')
+#1 /home/jgoulart/public_html/familia/index.php(154): Pessoa_model->Sessao(' delete from se...', Object(xajaxResponse))
+#2 /home/jgoulart/public_html/familia/xajax/xajax_core/plugin_layer/support/xajaxUserFunction.inc.php(237): Tela('')
+#3 /home/jgoulart/public_html/familia/xajax/xajax_core/plugin_layer/xajaxFunctionPlugin.inc.php(228): xajaxUserFunction->call(Array)
+#4 /home/jgoulart/public_html/familia/xajax/xajax_core/xajaxPluginManager.inc.php(241): xajaxFunctionPlugin->processRequest()
+#5 /home/jgoulart/public_html/familia/xajax/xajax_core/xajax.inc.php(605): xajaxPluginManager->processRequest()
+#6 /home/jgoulart/public_html/familia/index.php(70): xajax->processRequest()
+#7 {main}
+  thrown in /home/jgoulart/public_html/familia/inc/banco_pdo_class.php on line 42
+[22-Feb-2020 21:39:05 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function setAttribute() on null in /home/jgoulart/public_html/familia/inc/banco_pdo_class.php:42
+Stack trace:
+#0 /home/jgoulart/public_html/familia/Pessoas_classe.php(183): banco_mysql->mydb_query(' delete from se...', 'sql')
+#1 /home/jgoulart/public_html/familia/index.php(154): Pessoa_model->Sessao(' delete from se...', Object(xajaxResponse))
+#2 /home/jgoulart/public_html/familia/xajax/xajax_core/plugin_layer/support/xajaxUserFunction.inc.php(237): Tela('')
+#3 /home/jgoulart/public_html/familia/xajax/xajax_core/plugin_layer/xajaxFunctionPlugin.inc.php(228): xajaxUserFunction->call(Array)
+#4 /home/jgoulart/public_html/familia/xajax/xajax_core/xajaxPluginManager.inc.php(241): xajaxFunctionPlugin->processRequest()
+#5 /home/jgoulart/public_html/familia/xajax/xajax_core/xajax.inc.php(605): xajaxPluginManager->processRequest()
+#6 /home/jgoulart/public_html/familia/index.php(70): xajax->processRequest()
+#7 {main}
+  thrown in /home/jgoulart/public_html/familia/inc/banco_pdo_class.php on line 42
+[22-Feb-2020 21:41:09 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function setAttribute() on null in /home/jgoulart/public_html/familia/inc/banco_pdo_class.php:42
+Stack trace:
+#0 /home/jgoulart/public_html/familia/Pessoas_classe.php(183): banco_mysql->mydb_query(' delete from se...', 'sql')
+#1 /home/jgoulart/public_html/familia/index.php(154): Pessoa_model->Sessao(' delete from se...', Object(xajaxResponse))
+#2 /home/jgoulart/public_html/familia/xajax/xajax_core/plugin_layer/support/xajaxUserFunction.inc.php(237): Tela('')
+#3 /home/jgoulart/public_html/familia/xajax/xajax_core/plugin_layer/xajaxFunctionPlugin.inc.php(228): xajaxUserFunction->call(Array)
+#4 /home/jgoulart/public_html/familia/xajax/xajax_core/xajaxPluginManager.inc.php(241): xajaxFunctionPlugin->processRequest()
+#5 /home/jgoulart/public_html/familia/xajax/xajax_core/xajax.inc.php(605): xajaxPluginManager->processRequest()
+#6 /home/jgoulart/public_html/familia/index.php(70): xajax->processRequest()
+#7 {main}
+  thrown in /home/jgoulart/public_html/familia/inc/banco_pdo_class.php on line 42
+[22-Feb-2020 21:58:49 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function setAttribute() on null in /home/jgoulart/public_html/familia/inc/banco_pdo_class.php:42
+Stack trace:
+#0 /home/jgoulart/public_html/familia/Pessoas_classe.php(183): banco_mysql->mydb_query(' delete from se...', 'sql')
+#1 /home/jgoulart/public_html/familia/index.php(154): Pessoa_model->Sessao(' delete from se...', Object(xajaxResponse))
+#2 /home/jgoulart/public_html/familia/xajax/xajax_core/plugin_layer/support/xajaxUserFunction.inc.php(237): Tela('')
+#3 /home/jgoulart/public_html/familia/xajax/xajax_core/plugin_layer/xajaxFunctionPlugin.inc.php(228): xajaxUserFunction->call(Array)
+#4 /home/jgoulart/public_html/familia/xajax/xajax_core/xajaxPluginManager.inc.php(241): xajaxFunctionPlugin->processRequest()
+#5 /home/jgoulart/public_html/familia/xajax/xajax_core/xajax.inc.php(605): xajaxPluginManager->processRequest()
+#6 /home/jgoulart/public_html/familia/index.php(70): xajax->processRequest()
+#7 {main}
+  thrown in /home/jgoulart/public_html/familia/inc/banco_pdo_class.php on line 42
+[22-Feb-2020 22:06:12 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function setAttribute() on null in /home/jgoulart/public_html/familia/inc/banco_pdo_class.php:42
+Stack trace:
+#0 /home/jgoulart/public_html/familia/Pessoas_classe.php(183): banco_mysql->mydb_query(' delete from se...', 'sql')
+#1 /home/jgoulart/public_html/familia/index.php(154): Pessoa_model->Sessao(' delete from se...', Object(xajaxResponse))
+#2 /home/jgoulart/public_html/familia/xajax/xajax_core/plugin_layer/support/xajaxUserFunction.inc.php(237): Tela('')
+#3 /home/jgoulart/public_html/familia/xajax/xajax_core/plugin_layer/xajaxFunctionPlugin.inc.php(228): xajaxUserFunction->call(Array)
+#4 /home/jgoulart/public_html/familia/xajax/xajax_core/xajaxPluginManager.inc.php(241): xajaxFunctionPlugin->processRequest()
+#5 /home/jgoulart/public_html/familia/xajax/xajax_core/xajax.inc.php(605): xajaxPluginManager->processRequest()
+#6 /home/jgoulart/public_html/familia/index.php(70): xajax->processRequest()
+#7 {main}
+  thrown in /home/jgoulart/public_html/familia/inc/banco_pdo_class.php on line 42
+[22-Feb-2020 22:07:31 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function setAttribute() on null in /home/jgoulart/public_html/familia/inc/banco_pdo_class.php:42
+Stack trace:
+#0 /home/jgoulart/public_html/familia/Pessoas_classe.php(183): banco_mysql->mydb_query(' delete from se...', 'sql')
+#1 /home/jgoulart/public_html/familia/index.php(154): Pessoa_model->Sessao(' delete from se...', Object(xajaxResponse))
+#2 /home/jgoulart/public_html/familia/xajax/xajax_core/plugin_layer/support/xajaxUserFunction.inc.php(237): Tela('')
+#3 /home/jgoulart/public_html/familia/xajax/xajax_core/plugin_layer/xajaxFunctionPlugin.inc.php(228): xajaxUserFunction->call(Array)
+#4 /home/jgoulart/public_html/familia/xajax/xajax_core/xajaxPluginManager.inc.php(241): xajaxFunctionPlugin->processRequest()
+#5 /home/jgoulart/public_html/familia/xajax/xajax_core/xajax.inc.php(605): xajaxPluginManager->processRequest()
+#6 /home/jgoulart/public_html/familia/index.php(70): xajax->processRequest()
+#7 {main}
+  thrown in /home/jgoulart/public_html/familia/inc/banco_pdo_class.php on line 42
+[22-Feb-2020 22:07:58 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function setAttribute() on null in /home/jgoulart/public_html/familia/inc/banco_pdo_class.php:42
+Stack trace:
+#0 /home/jgoulart/public_html/familia/Pessoas_classe.php(183): banco_mysql->mydb_query(' delete from se...', 'sql')
+#1 /home/jgoulart/public_html/familia/index.php(154): Pessoa_model->Sessao(' delete from se...', Object(xajaxResponse))
+#2 /home/jgoulart/public_html/familia/xajax/xajax_core/plugin_layer/support/xajaxUserFunction.inc.php(237): Tela('')
+#3 /home/jgoulart/public_html/familia/xajax/xajax_core/plugin_layer/xajaxFunctionPlugin.inc.php(228): xajaxUserFunction->call(Array)
+#4 /home/jgoulart/public_html/familia/xajax/xajax_core/xajaxPluginManager.inc.php(241): xajaxFunctionPlugin->processRequest()
+#5 /home/jgoulart/public_html/familia/xajax/xajax_core/xajax.inc.php(605): xajaxPluginManager->processRequest()
+#6 /home/jgoulart/public_html/familia/index.php(70): xajax->processRequest()
+#7 {main}
+  thrown in /home/jgoulart/public_html/familia/inc/banco_pdo_class.php on line 42

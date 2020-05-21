@@ -1,0 +1,23 @@
+Hello
+
+I'm the <b>.welcome</b> file located in your pictures directory !
+You can edit my content online once you're loggued-in as admin.
+
+Here is a basic install validation procedure:
+
+1/ Log-in as admin
+2/ Try to create a directory
+3/ Try to upload a file (either via the web interface or via your FTP client)
+4/ See if the thumbnail get correctly generated
+
+Once all this is working, please edit me and put whatever you want here.
+
+<div style="border: solid 1px; width: 50%; padding: 5px;"><u>Tip:</u>
+Here is an example of HTML use, you can create links like one to see the <a href="?toprated=1">top rated pictures</a> or include pictures using img links.
+</div>
+
+Thanks for choosing phpGraphy, I hope you will enjoy using this software
+If you encounter a bug or you have a great new feature idea, please contact me.
+(See <a href="http://phpgraphy.sourceforge.net">phpGraphy website</a> for contact details)
+
+						JiM / aEGIS.
